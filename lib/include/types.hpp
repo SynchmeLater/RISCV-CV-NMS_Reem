@@ -13,3 +13,9 @@ enum class CenterPointBox
     Corners = 0,
     Center = 1,
 };
+
+struct BoxCandidate {
+    float score;
+    int index;
+};
+
